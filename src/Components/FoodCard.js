@@ -50,8 +50,8 @@ function FoodCard() {
 
   return (
     <div className='bg-gray-400 p-4'>
-      <h1 className='text-center text-3xl font-mono text-white mb-4 font-bold underline-offset-1'>Welcome to my Resturent</h1>
-      <div className='grid grid-cols-4 gap-3'>
+      <h1 className='text-center text-3xl font-mono mb-4 font-bold shadow-md shadow-orange-800 text-black rounded-lg w-[40%] ml-auto mr-auto'>Welcome to my Restaurant</h1>
+      <div className='grid grid-cols-4 gap-5'>
         {data.map((val, i) => {
           return <div className='bg-fuchsia-500 p-3 rounded-md shadow-lg shadow-teal-700'>
             <h1 className='text-justify font-semibold font-serif text-white'>{data[i].strMeal}</h1>

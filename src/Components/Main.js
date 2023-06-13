@@ -5,7 +5,7 @@ function Main() {
     <div>
       <section className='grid grid-flow-col p-10 space-x-16 justify-center items-center'>
         <div className="w-full">
-          <img src="https://cdn.pixabay.com/photo/2016/11/11/20/06/buddha-1817647_640.png" alt="Yoga" className='w-full pl-11 animate-pulse'></img>
+          <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_uqcbmc4h.json" background="transparent" speed="1" loop autoplay="true"></lottie-player>
         </div>
         <div className='space-y-2 pl-14'>
           <h1 className="text-3xl font-bold">Hi, I am John</h1>

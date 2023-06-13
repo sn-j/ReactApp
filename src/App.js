@@ -7,6 +7,7 @@ import About from './Components/About';
 import MinMax, { EvenOdd } from './Components/Classwork';
 import Classwork1 from './Components/FoodCard';
 import FoodCard from './Components/FoodCard';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="About" element={<About />} />
         <Route path="FoodCard" element={<FoodCard />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

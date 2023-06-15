@@ -1,6 +1,12 @@
 import React from 'react'
 
-function Main() {
+function HomePage() {
+  const person = {
+    id: 9,
+    age: 25,
+    name: "John"
+  };
+
   return (
     <div>
       <section className='grid grid-flow-col p-10 space-x-16 justify-center items-center'>
@@ -62,4 +68,4 @@ function Main() {
   )
 }
 
-export default Main
+export default HomePage

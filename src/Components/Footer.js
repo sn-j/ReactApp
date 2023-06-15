@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Footer() {
+const Footer = () => {
   return (
-    <div>
-      <footer className='flex bg-black text-white w-[100%] items-center justify-center'>
-        <h1 className='py-3'>Copyright by SN-J</h1>
-      </footer>
+    <div className='bg-black text-white text-center py-3'>
+      <p>Copyright By Someone</p>
     </div>
   )
 }
